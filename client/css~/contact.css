@@ -20,7 +20,7 @@ margin: 0 auto;
 }
 #contact_wrap #page-wrap .contact_tag {
 font-size: 18px;
-color:#1d4563;
+color:rgb(128, 128, 128);
 text-shadow: none;
 font-weight:bold;
 font-family: "PT Sans", sans-serif;
@@ -46,6 +46,7 @@ font-size: 20px;
 font-weight:bold;
 font-family: 'Fjalla One', sans-serif;
 text-align:left;
+text-shadow: 1px 1px 0px #000000;
 color:rgb(142, 144, 145);
 }
 #address .directions p {
@@ -54,14 +55,16 @@ font-size: 18px;
 font-weight: bold;
 margin-bottom: -14px;
 text-align:left;
+text-shadow:none;
 margin-left: -2px;
-color:#1d4563;
+color:rgb(128, 128, 128);
 
 }
 #page-wrap p{
 font-size: 20px;
 font-weight:bold;
 font-family: 'Fjalla One', sans-serif;
+text-shadow: 1px 1px 0px #000000;
 color: rgb(142, 144, 145);
 text-align: left;
 line-height: 1;

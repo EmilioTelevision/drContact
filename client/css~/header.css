@@ -1,5 +1,5 @@
 #header {
-height: 100px;
+height: 99px;
 /* IE10 Consumer Preview */ 
 background-image: -ms-radial-gradient(center top, ellipse farthest-corner, #78B5DB 0%, #4B7EAD 100%);
 
@@ -22,7 +22,7 @@ position: relative;
 #headerInner {
 width:960px;
 margin: 0 auto;	
-padding-top: 24px;
+padding-top: 22px;
 } 
 #header .grooves {
 position:absolute;
@@ -86,6 +86,9 @@ background: url('../../images/contact_sprite.png') 0 0 no-repeat;
 #header .nav .pages #nav li.contact:active:hover {
 background: url('../../images/contact_sprite.png') 0 -100px no-repeat;
 } 
+#header .nav .pages #nav li.active {
+background: url('../../images/contact_sprite.png') 0 -100px no-repeat;
+}
 #header .nav .pages #nav li.about:hover, 
 #header .nav .pages #nav li.about:active,
 #header .nav .pages #nav li.about:active:hover {

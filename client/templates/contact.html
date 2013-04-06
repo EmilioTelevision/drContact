@@ -1,8 +1,7 @@
 <template name="contact">
 	<div id="contact_wrap">
 		<div id="page-wrap">
-
-			<p>Contact Dr. Charles B. Goodwin</p>
+			<p class="charles">Contact Dr. Charles B. Goodwin</p>
 			<h2 class="contact_tag">We appreciate your interest in learning more about Dr. Charles Goodwin and his staff for your orthopedic care. We are dedicated to providing the highest-quality care with compassion and trust. We provide a comprehensive evaluation with prompt and efficient assessment and treatment.</h2>
 			<div id="address">
 				<div class="big_map"></div>
@@ -13,27 +12,24 @@
 				</div>
 			</div>
 			<div id="contact-area">
-
-					<label for="Name">Name:</label>
-					<input type="text" name="Name" id="contact_name" />
-
-					<label for="City">City:</label>
-					<input type="text" name="City" id="contact_city" />
-
-					<label for="Email">Email:</label>
-					<input type="text" name="Email" id="contact_email" />
-
-					<label for="Message">Message:</label><br />
-					<textarea name="Message" rows="20" cols="20" id="contact_message"></textarea>
-
-					<input type="submit" name="submit" value="Submit" class="submit-button" />
-					<a id="cancel_email" href="#">cancel/close</a>
-
-				<div style="clear: both;"></div>
-
-
+				<form id="contact_form">
+					<div class="field_input">
+						<label for="Name">Name:</label>
+						<input type="text" name="Name" id="contact_name" />
+					</div>
+					<div class="field_input">	
+						<label for="Email">Email:</label>
+						<input type="text" name="Email" id="contact_email" />
+					</div>
+					<div style="clear: both;"></div>
+					<div class="area_input">
+						<label for="Message">Message:</label><br />
+						<textarea name="Message" rows="7" cols="42" id="contact_message"></textarea>
+					</div>
+					<div style="clear: both;"></div>
+						<input type="submit" name="submit" value="SUBMIT" class="submit-button" />
+				</form>
 			</div>
-
 		</div>
 	</div>
 </template>
